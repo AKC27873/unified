@@ -1,0 +1,66 @@
+rules:
+  # General Errors
+  - pattern: "ERROR"
+    description: "Error detected"
+  - pattern: "Failed"
+    description: "Failure detected"
+  - pattern: "Critical"
+    description: "Critical issue detected"
+  - pattern: "segmentation fault"
+    description: "Segmentation fault detected"
+  - pattern: "permission denied"
+    description: "Permission denied"
+
+  # Authentication and Security
+  - pattern: "Failed password"
+    description: "Failed login attempt detected"
+  - pattern: "authentication failure"
+    description: "Authentication failure detected"
+  - pattern: "Invalid user"
+    description: "Invalid user login attempt"
+  - pattern: "POSSIBLE BREAK-IN ATTEMPT"
+    description: "Possible brute force attack detected"
+  - pattern: "sudo"
+    description: "Sudo command executed"
+  - pattern: "session opened"
+    description: "User session opened"
+  - pattern: "session closed"
+    description: "User session closed"
+
+  # Network and Firewall
+  - pattern: "UFW BLOCK"
+    description: "Firewall blocked a connection"
+  - pattern: "DROP"
+    description: "Packet dropped by firewall"
+  - pattern: "REJECT"
+    description: "Packet rejected by firewall"
+
+  # Application-Specific
+  - pattern: "SQL syntax error"
+    description: "SQL syntax error detected"
+  - pattern: "Out of memory"
+    description: "Out of memory error"
+  - pattern: "Connection refused"
+    description: "Connection refused"
+  - pattern: "404 Not Found"
+    description: "404 error detected"
+  - pattern: "500 Internal Server Error"
+    description: "500 error detected"
+
+  # System and Kernel
+  - pattern: "kernel:"
+    description: "Kernel event detected"
+  - pattern: "Out of memory: Kill process"
+    description: "System killed a process due to memory exhaustion"
+  - pattern: "disk full"
+    description: "Disk is full"
+  - pattern: "filesystem full"
+    description: "Filesystem is full"
+
+  # Malware and Intrusion Detection
+  - pattern: "malware detected"
+    description: "Malware detected"
+  - pattern: "intrusion attempt"
+    description: "Intrusion attempt detected"
+  - pattern: "rootkit"
+    description: "Rootkit activity detected"
