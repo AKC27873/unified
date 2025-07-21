@@ -2,7 +2,7 @@
 
 ## Overview
 
-SIEM4 is a real-time security monitoring tool written in Python that provides:
+Unified is a real-time security monitoring tool written in Python that provides:
 
 - Process monitoring with CPU usage alerts
 - Log file analysis with rule-based detection
