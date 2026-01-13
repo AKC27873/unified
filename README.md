@@ -35,7 +35,6 @@ Unified is a real-time security monitoring tool written in Python that provides:
 - **Auto-Remediation**: Automatic response to threats
 - **Threat Intelligence**: IOC matching
 - **CVE/LOLBAS**: Vulnerability checking
-- **Gamification**: Security training with scoring
 
 ## Installation
 
